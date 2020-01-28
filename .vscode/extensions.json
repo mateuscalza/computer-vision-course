@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "visualstudioexptteam.vscodeintellicode",
+        "ravenq.vscode-goto-node-modules",
+        "ms-vsliveshare.vsliveshare",
+        "oderwat.indent-rainbow",
+        "ms-python.anaconda-extension-pack",
+        "kevinrose.vsc-python-indent"
+    ]
+}

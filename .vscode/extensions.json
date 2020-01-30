@@ -5,6 +5,7 @@
         "ms-vsliveshare.vsliveshare",
         "oderwat.indent-rainbow",
         "ms-python.anaconda-extension-pack",
-        "kevinrose.vsc-python-indent"
+        "kevinrose.vsc-python-indent",
+        "ms-vscode.cpptools"
     ]
 }

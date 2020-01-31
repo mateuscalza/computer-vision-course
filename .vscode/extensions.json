@@ -6,6 +6,7 @@
         "oderwat.indent-rainbow",
         "ms-python.anaconda-extension-pack",
         "kevinrose.vsc-python-indent",
-        "ms-vscode.cpptools"
+        "ms-vscode.cpptools",
+        "gimly81.matlab"
     ]
 }

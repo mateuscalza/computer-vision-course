@@ -16,4 +16,6 @@
 * [lesson-12](lesson-12): image gaussian filter on Matlab
 * [lesson-13](lesson-13): image median filter on Matlab 🔥
 * [lesson-14](lesson-14): image blur filter with OpenCV and Python
-* [lesson-14](lesson-14): image filter comparisons with OpenCV and Python
+* [lesson-15](lesson-15): image filter comparisons with OpenCV and Python
+* [lesson-16](lesson-16): equalize image histogram with OpenCV and Python
+* [lesson-17](lesson-17): erode image with OpenCV and Python

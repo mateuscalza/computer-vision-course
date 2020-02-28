@@ -1,6 +1,6 @@
 import cv2
 
-image = cv2.imread('./resources/calza-200px.jpg', 0)
+image = cv2.imread('./resources/bruno.jpeg')
 cv2.imshow("Original", image)
 
 image_result = cv2.Laplacian(image, cv2.CV_8U)

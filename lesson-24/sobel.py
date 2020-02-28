@@ -1,6 +1,6 @@
 import cv2
 
-image = cv2.imread('./resources/calza-200px.jpg', 0)
+image = cv2.imread('./resources/bruno.jpeg', 0)
 cv2.imshow("Original", image)
 
 # X
@@ -17,7 +17,7 @@ cv2.imshow("Sobel XY", sobelXY1)
 
 # X or Y
 sobelXY2 = cv2.bitwise_or(sobelX, sobelY)
-cv2.imshow("Sobel X or Sobel Y", sobelXY2)
+cv2.imshow("Sobel X - bitwise - Sobel Y", sobelXY2)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()

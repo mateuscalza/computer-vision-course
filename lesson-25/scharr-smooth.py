@@ -1,6 +1,6 @@
 import cv2
 
-image = cv2.imread('./resources/calza-200px.jpg')
+image = cv2.imread('./resources/bruno.jpeg')
 cv2.imshow("Source", image)
 image_gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 cv2.imshow("Original", image_gray)

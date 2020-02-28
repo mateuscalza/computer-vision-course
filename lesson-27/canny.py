@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-image = cv2.cvtColor(cv2.imread('./resources/calza-200px.jpg'), cv2.COLOR_BGR2GRAY)
+image = cv2.cvtColor(cv2.imread('./resources/bruno.jpeg'), cv2.COLOR_BGR2GRAY)
 cv2.imshow("Original", image)
 
 dim = (image.shape[1], image.shape[0])
@@ -16,7 +16,7 @@ result = np.vstack([
   np.hstack([resized_image, smoothed_image]),
   np.hstack([canny1, canny2])
 ])
-cv2.imshow("Canny borders", result)
+cv2.imshow("Canny", result)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
